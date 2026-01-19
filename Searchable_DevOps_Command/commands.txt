@@ -1,0 +1,66 @@
+# Git Commands
+git init -> Initialize a new Git repository
+git clone <URL> -> Clone a repository from remote
+git status -> Show current repo status
+git add <FILE> -> Stage changes
+git commit -m "message" -> Commit staged changes
+git log -> Show commit history
+git branch -> List branches
+git checkout <branch> -> Switch to branch
+git merge <branch> -> Merge branch into current
+git push -> Push changes to remote
+git pull -> Fetch and merge changes from remote
+
+# Docker Commands
+docker build . -> Build Docker image from Dockerfile
+docker run <IMAGE> -> Run a container from image
+docker ps -> List running containers
+docker ps -a -> List all containers (including stopped)
+docker stop <ID> -> Stop a container
+docker rm <ID> -> Remove a container
+docker images -> List images
+docker rmi <IMAGE> -> Remove image
+docker exec -it <ID> bash -> Access container shell
+docker-compose up -d -> Start services defined in docker-compose.yml
+docker-compose down -> Stop and remove services
+
+# Kubernetes Commands
+kubectl get pods -> List Kubernetes pods
+kubectl get services -> List services
+kubectl describe pod <NAME> -> Show pod details
+kubectl apply -f file.yaml -> Apply configuration file
+kubectl delete pod <NAME> -> Delete a pod
+kubectl logs <POD> -> View pod logs
+kubectl exec -it <POD> -- bash -> Access pod shell
+kubectl get deployments -> List deployments
+kubectl scale deployment <NAME> --replicas=N -> Scale deployment
+kubectl get nodes -> List cluster nodes
+
+# Linux Basics
+ls -> List files
+cd <DIR> -> Change directory
+pwd -> Show current path
+grep <PATTERN> <FILE> -> Search text in file
+chmod +x <FILE> -> Make file executable
+rm <FILE> -> Remove file
+mkdir <DIR> -> Create new directory
+rmdir <DIR> -> Remove empty directory
+cp <SRC> <DEST> -> Copy file
+mv <SRC> <DEST> -> Move or rename file
+cat <FILE> -> Display file contents
+head <FILE> -> Show first lines of file
+tail <FILE> -> Show last lines of file
+find <PATH> -name <PATTERN> -> Search files by name
+which <COMMAND> -> Show command location
+man <COMMAND> -> Show manual page for command
+
+# System Monitoring
+top -> Show running processes
+htop -> Interactive process viewer
+df -h -> Show disk usage
+du -sh <DIR> -> Show directory size
+free -m -> Show memory usage
+uptime -> Show system uptime
+whoami -> Show current user
+ps aux -> Show all processes
+kill <PID> -> Kill process by ID
